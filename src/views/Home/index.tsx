@@ -60,7 +60,7 @@ const Home = () => {
               key={index}
               style={{ display: index === showText ? "block" : "none" }}
             >
-              ddd {text}
+              {text}
             </StyledSliderTaxiH2>
           ))}
         </SliderTaxiTitle>
